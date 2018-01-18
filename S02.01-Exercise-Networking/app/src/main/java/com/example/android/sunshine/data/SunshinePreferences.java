@@ -16,6 +16,9 @@
 package com.example.android.sunshine.data;
 
 import android.content.Context;
+import android.util.Log;
+
+import static android.content.ContentValues.TAG;
 
 public class SunshinePreferences {
 
@@ -88,6 +91,7 @@ public class SunshinePreferences {
      */
     public static String getPreferredWeatherLocation(Context context) {
         /** This will be implemented in a future lesson **/
+        Log.d(TAG, "getPreferredWeatherLocation: " + context.toString());
         return getDefaultWeatherLocation();
     }
 
