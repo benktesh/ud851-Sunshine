@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="Middleton, WI 53562"
+        android:inputType="text"
+        android:key="location"
+        android:title="Location" />
+
+    <ListPreference
+        android:defaultValue="metric"
+        android:entries="@array/pref_units_options"
+        android:entryValues="@array/pref_units_values"
+        android:key="units"
+        android:title="Temperature Units"/>
+</PreferenceScreen>
