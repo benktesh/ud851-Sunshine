@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="showNotification">true</bool>
+    <bool name="enableNotification">true</bool>
+    <bool name="showPreferences">true</bool>
+</resources>
